@@ -156,3 +156,17 @@ footer {
         font-size: 16px;
     }
 }
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .header-content h2 {
+        font-size: 30px;
+    }
+}
